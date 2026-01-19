@@ -84,7 +84,14 @@ Alternatives are ranked in descending order of TOPSIS score.
   - TOPSIS Score
   - Rank
 
-📸 **Screenshot:** CLI execution and generated result file
+### CLI Implementation
+
+<img width="1449" height="468" alt="image" src="https://github.com/user-attachments/assets/0cfaf1ca-4c50-4350-83c5-3ab4b0f80a18" />
+
+### Output (result.csv) appears in the directory
+
+<img width="1555" height="509" alt="image" src="https://github.com/user-attachments/assets/c316d881-461b-4ec1-8842-c65e98616bca" />
+
 
 Detailed instructions are available in  
 `Part-1-CLI-TOPSIS/README.md`
@@ -133,10 +140,10 @@ Detailed instructions are available in
 
 <img width="388" height="127" alt="image" src="https://github.com/user-attachments/assets/40523c8e-994e-47c3-8019-9e5818a13266" />
 
-### data.csv
+### data.csv uploaded 
 <img width="558" height="279" alt="image" src="https://github.com/user-attachments/assets/84e9a716-c6f2-4840-806f-2dcdbbc59a1e" />
 
-### result.csv
+### result.csv received via email
 <img width="1105" height="375" alt="image" src="https://github.com/user-attachments/assets/6c51a1fc-4911-4359-ae00-0621c82459f1" />
 
 
