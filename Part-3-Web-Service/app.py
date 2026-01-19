@@ -49,8 +49,8 @@ def index():
 
 
 def send_email(receiver, attachment_path):
-    sender_email = os.getenv("TOPSIS_EMAIL")
-    sender_password = os.getenv("TOPSIS_EMAIL_PASSWORD")
+    sender_email = os.getenv("EMAIL_USER")
+    sender_password = os.getenv("EMAIL_PASS")
 
     if not sender_email or not sender_password:
         raise Exception("Email credentials not set in environment variables")
@@ -77,5 +77,6 @@ def send_email(receiver, attachment_path):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
