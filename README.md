@@ -29,7 +29,7 @@ Each part is implemented, documented, and tested independently.
 
 ---
 
-## 🔹 Part 2: Python Package (PyPI Style)
+##  Part 2: Python Package (PyPI Style)
 
 - TOPSIS implemented as a reusable Python package
 - Can be installed locally and imported in other projects
