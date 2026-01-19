@@ -38,9 +38,8 @@ r_{ij} = \frac{x_{ij}}{\sqrt{\sum_{i=1}^{n} x_{ij}^2}}
 ### Step 3: Construct the Weighted Normalized Matrix  
 Each normalized value is multiplied by its corresponding weight:
 
-\[
-v_{ij} = w_j \times r_{ij}
-\]
+<img width="376" height="261" alt="image" src="https://github.com/user-attachments/assets/2483bd68-ffbd-462f-9fc7-10a961336723" />
+
 
 ### Step 4: Determine Ideal Best and Ideal Worst  
 - **Ideal Best (A⁺)**: Maximum value for benefit criteria, minimum for cost criteria  
@@ -49,18 +48,12 @@ v_{ij} = w_j \times r_{ij}
 ### Step 5: Calculate Separation Measures  
 Distance of each alternative from ideal best and ideal worst:
 
-\[
-S_i^+ = \sqrt{\sum (v_{ij} - A_j^+)^2}
-\]
+<img width="841" height="370" alt="image" src="https://github.com/user-attachments/assets/cbec4c37-f8e8-4645-b340-c0f4142c01a4" />
 
-\[
-S_i^- = \sqrt{\sum (v_{ij} - A_j^-)^2}
-\]
 
 ### Step 6: Calculate TOPSIS Score  
-\[
-C_i = \frac{S_i^-}{S_i^+ + S_i^-}
-\]
+<img width="462" height="133" alt="image" src="https://github.com/user-attachments/assets/4b563f60-1d0f-4600-b393-e6d90cc3b64b" />
+
 
 ### Step 7: Rank the Alternatives  
 Alternatives are ranked in descending order of TOPSIS score.
@@ -111,6 +104,7 @@ Detailed instructions are available in
 ### Result
 - Package executes correctly when imported
 - Produces same TOPSIS scores as CLI version
+- Link:  <https://pypi.org/project/Topsis-Khushveer-102303327/0.0.2/> 
 
 <img width="1603" height="906" alt="image" src="https://github.com/user-attachments/assets/0012f225-df72-46d7-9724-90683a262c12" />
 
@@ -130,7 +124,7 @@ Detailed instructions are available in
   - Email input for result delivery
 - Backend uses the same TOPSIS logic for consistency
 
-### Result
+### Result 
 - TOPSIS score calculated correctly
 - Result CSV generated on submission
 - Email functionality implemented using SMTP (Gmail)
