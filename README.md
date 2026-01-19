@@ -1,8 +1,8 @@
 # UCS654 TOPSIS Assignment  
-**Name:** Khushveer Kaur  
-**Roll Number:** 102303327  
-**Course:** UCS654 – Predictive Analysis Using Statistics 
-**Institute:** Thapar Institute of Engineering and Technology  
+### Name: Khushveer Kaur  
+### Roll Number: 102303327  
+### Course: UCS654 – Predictive Analysis Using Statistics 
+### Institute: Thapar Institute of Engineering and Technology  
 
 ---
 
