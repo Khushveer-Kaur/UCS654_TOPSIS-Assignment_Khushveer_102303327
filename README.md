@@ -44,9 +44,8 @@ Each part is implemented, documented, and tested independently.
 - Web-based TOPSIS implementation using Flask
 - User can upload CSV, enter weights & impacts
 - Computes TOPSIS score and sends result via email
-- Successfully deployed using **Render**
 
- Live URL : <https://topsis-web-service-bq7q.onrender.com/>
+ Detailed instructions are available in `Part-3-Web-Service/README.md`
 
 ---
 
@@ -57,7 +56,7 @@ Each part is implemented, documented, and tested independently.
 - Pandas, NumPy
 - HTML / CSS
 - SMTP (Gmail)
-- Render (Deployment)
+
 
 ---
 
