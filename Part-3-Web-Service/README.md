@@ -14,16 +14,6 @@ This part implements the TOPSIS algorithm as a web service using Flask.
 - Flask
 - HTML / CSS
 - SMTP (Gmail)
-- Render (Deployment)
-
-## Deployed Web Service
-
-The TOPSIS web service has been successfully deployed using Render.
-
-### Live URL:  
-<https://topsis-web-service-bq7q.onrender.com/>
-
-> Note: Since this is deployed on Render free tier, the first request may take some time due to cold start.
 
 ## How to Run Locally
 
